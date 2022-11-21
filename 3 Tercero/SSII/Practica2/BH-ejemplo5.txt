@@ -1,0 +1,9 @@
+6
+runnerMas70, FC=0.2
+club, FC=0.2
+runnerMenos70, FC=0.8
+terrenoRoc, FC=0.1
+mas1año, FC=0.6
+menos1año, FC=0.4
+Objetivo
+realizarPrueba

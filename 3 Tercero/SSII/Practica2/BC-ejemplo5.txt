@@ -1,0 +1,10 @@
+9 
+R1: Si runnerMas70 Entonces optimo, FC=0.1 
+R2: Si runnerMenos70 Entonces optimo, FC=0.5 
+R3: Si mas1año Entonces realizarPrueba, FC=0.7 
+R4: Si menos1año Entonces realizarPrueba, FC=0.2 
+R5: Si club y runnerMas70 Entonces realizarPrueba, FC=0.3 
+R6: Si club y runnerMenos70 Entonces realizarPrueba, FC=0.7 
+R7: Si terrenoRoc y runnerMenos70 Entonces dolorido, FC=0.4 
+R8: Si dolorido Entonces realizarPrueba, FC=0.1 
+R9: Si optimo Entonces realizarPrueba, FC=0.3 

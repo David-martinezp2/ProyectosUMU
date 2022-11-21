@@ -1,0 +1,6 @@
+5
+R1: Si juez y abogadoSosp Entonces inocente, FC=0.3
+R2: Si juez y abogadoFami Entonces culpable, FC=0.8
+R3: Si coartada y sospechoso Entonces inocente, FC=0.2
+R4: Si acusacion y sospechoso Entonces culpable, FC=0.9
+R5: Si inocente o culpable Entonces decision, FC=1

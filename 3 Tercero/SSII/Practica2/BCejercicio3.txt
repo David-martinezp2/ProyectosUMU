@@ -1,0 +1,8 @@
+7
+R1: Si condAnt23 Entonces condExperim, FC=0.5
+R2: Si condAntM3 Entonces condExperim, FC=0.9
+R3: Si conduce23h Entonces condCansado, FC=0.5
+R4: Si conduceM3 Entonces condCansado, FC=1
+R5: Si condExperim y noViajaS Entonces condCausa, FC=-0.5
+R6: Si condCansado Entonces condCausa, FC=0.5
+R7: Si condJoven y condEbrio Entonces condCausa, FC=0.7

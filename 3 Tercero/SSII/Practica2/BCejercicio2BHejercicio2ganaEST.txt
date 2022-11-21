@@ -1,0 +1,33 @@
+Nombre BC: BCejercicio2.txt
+Nombre BH: BHejercicio2ganaEST.txt
+Objetivo: ganaEST
+
+
+Nuevo objetivo a verificar: ganaEST
+Reglas seleccionadas para C conflicto:
+R1 R4 R6 
+Analisis de regla R6 - Condicion de la regla: les2pivEST 
+
+Nuevo objetivo a verificar: les2pivEST
+Hecho inicial les2pivEST ya presente en la BH con FC=1
+Caso 1, FC=1
+antecedenteFC1-0.6
+
+Analisis de regla R4 - Condicion de la regla: publicoEqui 
+
+Nuevo objetivo a verificar: publicoEqui
+Hecho inicial publicoEqui ya presente en la BH con FC=0.35
+Caso 1, FC=0.35
+antecedenteFC0.35-0.677
+
+Analisis de regla R1 - Condicion de la regla: arbMod 
+
+Nuevo objetivo a verificar: arbMod
+Hecho inicial arbMod ya presente en la BH con FC=1
+Caso 1, FC=1
+antecedenteFC1-0.461667
+Caso 3,  FC= 0.4
+Caso 2,  FC= 0.4
+Hecho ganaEST verificado con FC=-0.461667
+
+HECHO OBJETIVO ganaEST VERIFICADO CON FC=-0.461667

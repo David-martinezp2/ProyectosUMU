@@ -1,0 +1,73 @@
+Nombre BC: BCejercicio3.txt
+Nombre BH: BHejercicio3.txt
+Objetivo: condCausa
+
+
+Nuevo objetivo a verificar: condCausa
+Reglas seleccionadas para C conflicto:
+R5 R6 R7 
+Analisis de regla R7 - Condicion de la regla: condJoven y condEbrio 
+
+Nuevo objetivo a verificar: condEbrio
+Hecho inicial condEbrio ya presente en la BH con FC=0.5
+
+Nuevo objetivo a verificar: condJoven
+Hecho inicial condJoven ya presente en la BH con FC=0.4
+Caso 1, FC=0.4
+antecedenteFC0.40.28
+
+Analisis de regla R6 - Condicion de la regla: condCansado 
+
+Nuevo objetivo a verificar: condCansado
+Reglas seleccionadas para C conflicto:
+R3 R4 
+Analisis de regla R4 - Condicion de la regla: conduceM3 
+
+Nuevo objetivo a verificar: conduceM3
+Hecho inicial conduceM3 ya presente en la BH con FC=0.5
+Caso 1, FC=0.5
+antecedenteFC0.50.5
+
+Analisis de regla R3 - Condicion de la regla: conduce23h 
+
+Nuevo objetivo a verificar: conduce23h
+Hecho inicial conduce23h ya presente en la BH con FC=0.5
+Caso 1, FC=0.5
+antecedenteFC0.50.625
+Caso 3,  FC= 0.25
+Caso 2,  FC= 0.25
+Hecho condCansado verificado con FC=0.625
+Caso 1, FC=0.625
+antecedenteFC0.6250.505
+
+Analisis de regla R5 - Condicion de la regla: condExperim y noViajaS 
+
+Nuevo objetivo a verificar: noViajaS
+Hecho inicial noViajaS ya presente en la BH con FC=0.5
+
+Nuevo objetivo a verificar: condExperim
+Reglas seleccionadas para C conflicto:
+R1 R2 
+Analisis de regla R2 - Condicion de la regla: condAntM3 
+
+Nuevo objetivo a verificar: condAntM3
+Hecho inicial condAntM3 ya presente en la BH con FC=0.5
+Caso 1, FC=0.5
+antecedenteFC0.50.45
+
+Analisis de regla R1 - Condicion de la regla: condAnt23 
+
+Nuevo objetivo a verificar: condAnt23
+Hecho inicial condAnt23 ya presente en la BH con FC=0.5
+Caso 1, FC=0.5
+antecedenteFC0.50.5875
+Caso 3,  FC= 0.25
+Caso 2,  FC= 0.25
+Hecho condExperim verificado con FC=0.5875
+Caso 1, FC=0.5
+antecedenteFC0.50.34
+Caso 3,  FC= -0.25
+Caso 2,  FC= -0.25
+Hecho condCausa verificado con FC=0.34
+
+HECHO OBJETIVO condCausa VERIFICADO CON FC=0.34

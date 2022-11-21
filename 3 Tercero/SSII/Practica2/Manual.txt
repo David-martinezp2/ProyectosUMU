@@ -1,0 +1,47 @@
+			Manual de uso
+
+Aquí se indica cómo se deberá usar este Sistema Basado en Reglas
+
+			Funcionamiento
+El modo de uso del programa es sencillo. Deberá ejecutar mediante línea de comandos el .exe (main.exe en este caso). Deberá de introducir el siguiente comando “main.exe BCejemplo1.txt BHejemplo1.txt” como primer parámetro se pasará un fichero de BC y como segundo parámetro un fichero de BH.
+
+			Formato especificado para los ficheros
+Los dos ficheros que se le pasa como parámetro deberán de ir estrictamente definidos por unas reglas y con un orden, si no no funcionara la ejecución.
+Ambos fichero deberán ser ficheros de texto (*.txt).
+
+			La estructura del fichero de la BC será:
+NReglas
+IdRegla: Si Condicion Entonces Consecuente, FC
+...
+IdRegla: Si Condicion Entonces Consecuente, FC
+
+Donde:
+- NReglas: Número de reglas que contiene el fichero
+- IdRegla: Es el identificador de la regla.
+-  Condicion: Se trata de una sentencia que tendrá un único literal, una conjunción de literales (y) o una disyunción de literales (o). 
+- Consecuente: Debe ser un literal individual.
+- Factor: Número decimal que indica  el  factor  de  certeza asignado a la “regla” dónde nº está incluido en [-1,1].
+			La estructura del fichero de la BH será:
+NHechos
+hecho,factor
+.....
+Objetivo
+hechoOBJ
+
+Donde:
+- NHechos:Número de hechos que contiene el fichero
+- hecho: Representa  cada uno de  los hechos de  entrada
+- Factor: Indica el factor de  certeza asignado al “hecho”.representado como FC
+- Objetivo: Palabra reservada que debe ponerse explícitamente “Objetivo”.
+- hechoOBJ: Literal que será nuestro hecho meta y del cuál el SBR-FC intentará calcular su FC.
+
+			Salida
+Si hemos introducido los argumentos correctamente, con la estructura adecuada,al ejecutar se deberá producir como salida en el directorio en el que nos encontramos un fichero .txt cuyo nombre tendrá la forma "FicheroBCFicheroBH.txt".
+Dentro de él se habrá escrito toda la salida del SBR-FC, que seguirá la estructura: 
+- Nombre  de  la  BC  y  BH  utilizados.
+- El objetivo.
+- El  proceso de  inferencia que  se  ha  seguido  para obtener la solución. 
+- Cómo se va activando la red y el “CASO-i” de inferencia que se va aplicando.
+- El hecho objetivo con su factor de certeza.
+
+

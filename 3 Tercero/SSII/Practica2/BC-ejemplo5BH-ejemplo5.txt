@@ -1,0 +1,90 @@
+Nombre BC: BC-ejemplo5.txt
+Nombre BH: BH-ejemplo5.txt
+Objetivo: realizarPrueba
+
+
+Nuevo objetivo a verificar: realizarPrueba
+Reglas seleccionadas para C conflicto:
+R3 R4 R5 R6 R8 R9 
+Analisis de regla R9 - Condicion de la regla: optimo 
+
+Nuevo objetivo a verificar: optimo
+Reglas seleccionadas para C conflicto:
+R1 R2 
+Analisis de regla R2 - Condicion de la regla: runnerMenos70 
+
+Nuevo objetivo a verificar: runnerMenos70
+Hecho inicial runnerMenos70 ya presente en la BH con FC=0.8
+Caso 1, FC=0.8
+antecedenteFC0.80.4
+
+Analisis de regla R1 - Condicion de la regla: runnerMas70 
+
+Nuevo objetivo a verificar: runnerMas70
+Hecho inicial runnerMas70 ya presente en la BH con FC=0.2
+Caso 1, FC=0.2
+antecedenteFC0.20.412
+Caso 3,  FC= 0.02
+Caso 2,  FC= 0.02
+Hecho optimo verificado con FC=0.412
+Caso 1, FC=0.412
+antecedenteFC0.4120.1236
+
+Analisis de regla R8 - Condicion de la regla: dolorido 
+
+Nuevo objetivo a verificar: dolorido
+Reglas seleccionadas para C conflicto:
+R7 
+Analisis de regla R7 - Condicion de la regla: terrenoRoc y runnerMenos70 
+
+Nuevo objetivo a verificar: runnerMenos70
+Hecho inicial runnerMenos70 ya presente en la BH con FC=0.8
+
+Nuevo objetivo a verificar: terrenoRoc
+Hecho inicial terrenoRoc ya presente en la BH con FC=0.1
+Caso 1, FC=0.1
+antecedenteFC0.10.04
+Caso 3,  FC= 0.04
+Caso 2,  FC= 0.04
+Hecho dolorido verificado con FC=0.04
+Caso 1, FC=0.04
+antecedenteFC0.040.127106
+
+Analisis de regla R6 - Condicion de la regla: club y runnerMenos70 
+
+Nuevo objetivo a verificar: runnerMenos70
+Hecho inicial runnerMenos70 ya presente en la BH con FC=0.8
+
+Nuevo objetivo a verificar: club
+Hecho inicial club ya presente en la BH con FC=0.2
+Caso 1, FC=0.2
+antecedenteFC0.20.249311
+
+Analisis de regla R5 - Condicion de la regla: club y runnerMas70 
+
+Nuevo objetivo a verificar: runnerMas70
+Hecho inicial runnerMas70 ya presente en la BH con FC=0.2
+
+Nuevo objetivo a verificar: club
+Hecho inicial club ya presente en la BH con FC=0.2
+Caso 1, FC=0.2
+antecedenteFC0.20.294352
+
+Analisis de regla R4 - Condicion de la regla: menos1año 
+
+Nuevo objetivo a verificar: menos1año
+Hecho inicial menos1año ya presente en la BH con FC=0.4
+Caso 1, FC=0.4
+antecedenteFC0.40.350804
+
+Analisis de regla R3 - Condicion de la regla: mas1año 
+
+Nuevo objetivo a verificar: mas1año
+Hecho inicial mas1año ya presente en la BH con FC=0.6
+Caso 1, FC=0.6
+antecedenteFC0.60.623466
+Caso 3,  FC= 0.42
+Caso 2,  FC= 0.42
+Hecho realizarPrueba verificado con FC=0.623466
+
+HECHO OBJETIVO realizarPrueba VERIFICADO CON FC=0.623466

@@ -1,0 +1,9 @@
+6
+abogadoSosp, FC=0.4
+juez, FC=0.5
+abogadoFami, FC=0.5
+coartada, FC=0.5
+sospechoso, FC=0.5
+acusacion, FC=0.5
+Objetivo
+decision

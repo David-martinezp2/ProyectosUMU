@@ -1,0 +1,10 @@
+7
+condJoven, FC=0.4
+condAnt23, FC=0.5
+condAntM3, FC=0.5
+conduce23h, FC=0.5
+conduceM3, FC=0.5
+noViajaS, FC=0.5
+condEbrio, FC=0.5
+Objetivo
+condCausa

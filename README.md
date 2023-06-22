@@ -16,4 +16,4 @@ Programación de un gestor de peticiones HTTP en C. Configuración de servicios 
 ### Sistemas inteligentes
 La primera práctica es un algoritmo genético realizado en C++ que intenta resolver Sudokus utilizando una librería. La segunda es un sistema basado en reglas enteramente  programado por mi en C++.
 ### Tecnologías de desarrollo de software
-Proyecto más completo de los realizados durante la carrera junto al de IA para el desarrollo de juegos de cuarto. Desarrollo en Java de un reproductor de vídeos de Youtube que utiliza Swing para la interfaz gráfica, una base de datos para almacenar los vídeos o los usuarios, y patrones de diseño, explicados en la memoria del trabajo. Proyecto realizado conjuntamente con Francisco Hita Ruiz.
+Proyecto más completo de los realizados durante la carrera junto al de IA para el desarrollo de juegos de cuarto. Desarrollo en Java de un reproductor de vídeos de Youtube que utiliza Swing para la interfaz gráfica, una base de datos para almacenar los vídeos o los usuarios, y patrones de diseño, explicados en la memoria del trabajo.

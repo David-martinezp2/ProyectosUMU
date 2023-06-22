@@ -6,9 +6,9 @@ Videojuego programado en C++. Mi primer proyecto de programación. Puede instala
 
 ## Segundo curso
 ### Algoritmos y estructuras de datos I y II
-En ambas asignaturas se programó en C++. En la I, el trabajo más interesante es el ejercicio 300, que combina diferentes clases y en el que se programó un árbol y una tabla hash. En la II se programaron algoritmos de avance rápido o backtracking entre otros, para la resoluciçon de ejercicios propuestos. Los algoritmos de la parte II fueron realizados conjuntamente con Francisco José Gambín Tortosa.
+En ambas asignaturas se programó en C++. En la I, el trabajo más interesante es el ejercicio 300, que combina diferentes clases y en el que se programó un árbol y una tabla hash. En la II se programaron algoritmos de avance rápido o backtracking entre otros, para la resoluciçon de ejercicios propuestos.
 ### Redes de comunicaciones
-Primer proyecto grande realizado en Java. Se completó un proyecto a medio hacer para la realización de una sala de minijuegos multijugador en línea. Se puede observar el resultado en el vídeo de demostración y se puede probar. Proyecto realizado conjuntamente con Francisco José Gambín Tortosa.
+Primer proyecto grande realizado en Java. Se completó un proyecto a medio hacer para la realización de una sala de minijuegos multijugador en línea. Se puede observar el resultado en el vídeo de demostración y se puede probar.
 
 ## Tercer curso
 ### Servicios telemáticos
